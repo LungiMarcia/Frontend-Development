@@ -13,36 +13,31 @@ body {
 }
 
 .navBar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  z-index: 1000;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  width: 90%;
 }
 
 .logo {
   padding: 2rem;
 }
 
-ul li {
-  display: inline-block;
-  margin-right: 3rem;
-}
-.NavBar ul li {
+.navBar ul li {
   color: hsl(0, 0%, 41%);
+  margin-right: 15px;
+}
+
+.navBar ul li:last :last-child {
+  margin-right: 0;
 }
 
 .login-register {
-  margin: auto;
-}
-.login-register a {
-  margin-left: 25rem;
+  margin-left: auto;
 }
 
-.userLink {
-  margin-right: 2.5rem;
+.registerBtn {
+  margin-left: 20px;
 }
 
 nav ul li {
@@ -92,7 +87,7 @@ section {
   display: flex;
   justify-content: space-between;
   max-width: 75%;
-  margin: 6rem 0 0 7rem;
+  margin: 1rem 0 0 7rem;
 }
 
 .text {
@@ -143,7 +138,7 @@ button:hover {
 
 footer {
   text-align: center;
-  padding-top: 2rem;
+  padding: 2rem;
   border-top: 1px solid hsl(0, 0%, 41%);
 }
 
