@@ -9,8 +9,7 @@
 }
 
 body {
-  color: hsl(0, 0%, 98%);
-  width: 1440px;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .navBar {
@@ -96,20 +95,9 @@ section {
   margin: 6rem 0 0 7rem;
 }
 
-.content {
-  flex: 1;
-  padding: 20px;
-}
-
 .text {
   margin-top: 5rem;
   width: 65%;
-}
-
-.main-image {
-  flex: 1;
-  text-align: right;
-  margin-right: 15rem;
 }
 
 .icons {
