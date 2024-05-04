@@ -94,7 +94,7 @@ nav ul li:hover .dropdown {
 section {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 75%;
   margin: 1rem 0 0 7rem;
 }
@@ -159,18 +159,6 @@ footer {
   color: blueviolet;
 }
 
-.hoster {
-  color: skyblue;
-}
-
-.bootcamp {
-  color: rgb(93, 93, 244);
-}
-
-.developer {
-  color: blueviolet;
-}
-
-.hoster {
+.host {
   color: skyblue;
 }
