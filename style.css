@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
+  width: 100%;
 }
 
 .container {
@@ -43,6 +43,7 @@ body {
 
 .login-register {
   margin-left: auto;
+  margin-top: -1.5rem;
 }
 
 .registerBtn {
@@ -95,13 +96,13 @@ section {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  max-width: 75%;
+  max-width: 85%;
   margin: 1rem 0 0 7rem;
 }
 
 .text {
   margin-top: 5rem;
-  width: 65%;
+  width: 85%;
 }
 
 .icons {
